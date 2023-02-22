@@ -1,15 +1,16 @@
 body{
     position: relative;
     animation-name: example;
-    animation-duration: 6s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     }
     @keyframes example{
-        from {background-color: rgb(255, 255, 255);}
-        to {background-color: rgba(200, 200, 200);}
+        0% {background-color: rgb(255, 255, 255);}
+        50% {background-color: rgba(200, 200, 200);}
+        100% {background-color: rgb(255, 255, 255);}
     }
 
-#navbar {
+#navbar{
     overflow: hidden;
     background-color: black;
     position: sticky;
@@ -19,7 +20,7 @@ body{
     z-index: 100;
     }
     
-#navbar a {
+#navbar a{
     float: left;
     display: block;
     color: white;
@@ -28,7 +29,18 @@ body{
     text-decoration: none;
     font-size: 30px;
 }
-#navbar a:hover {
+#navbar a:hover{
     background-color: white;
     color: black;
+}
+.button{
+    background-color: red;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
