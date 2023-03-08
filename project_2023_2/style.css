@@ -1,12 +1,13 @@
 body{
     position: relative;
     animation-name: example;
-    animation-duration: 6s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
     }
     @keyframes example{
-        from {background-color: rgb(255, 255, 255);}
-        to {background-color: rgba(200, 200, 200);}
+        0% {background-color: rgb(255, 255, 255);}
+        50% {background-color: rgba(180, 180, 180);}
+        100% {background-color: rgb(255, 255, 255);}
     }
 
 #navbar {
