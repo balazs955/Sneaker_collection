@@ -1,16 +1,24 @@
 body{
     position: relative;
     animation-name: example;
+<<<<<<< HEAD
     animation-duration: 8s;
+=======
+    animation-duration: 10s;
+>>>>>>> 1b05acdad333dc1e16b61ae77cc0a689cf90e8a1
     animation-iteration-count: infinite;
     }
     @keyframes example{
         0% {background-color: rgb(255, 255, 255);}
+<<<<<<< HEAD
         50% {background-color: rgba(180, 180, 180);}
+=======
+        50% {background-color: rgba(200, 200, 200);}
+>>>>>>> 1b05acdad333dc1e16b61ae77cc0a689cf90e8a1
         100% {background-color: rgb(255, 255, 255);}
     }
 
-#navbar {
+#navbar{
     overflow: hidden;
     background-color: black;
     position: sticky;
@@ -20,7 +28,7 @@ body{
     z-index: 100;
     }
     
-#navbar a {
+#navbar a{
     float: left;
     display: block;
     color: white;
@@ -29,7 +37,18 @@ body{
     text-decoration: none;
     font-size: 30px;
 }
-#navbar a:hover {
+#navbar a:hover{
     background-color: white;
     color: black;
+}
+.button{
+    background-color: red;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
