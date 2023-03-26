@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Sneakers Souls</title>
 </head>
@@ -14,18 +14,43 @@
         <a href="#sneakerek">Sneakerek</a>
         <a href="#rendeles">Rendelés</a>
         <a href="#rolunk">Rólunk</a>
-        <button onclick="eurhuf()">EUR</button>
+        <select class="form-select" aria-label="Default select example" aria-setsize="2" id="penznem" onchange="valtas()">
+            <option value="FT">FT</option>
+            <option value="EUR">EUR</option>
+        </select>
+        <!-- <button onclick="eurhuf()">EUR</button> -->
     </div>
-<<<<<<< HEAD
-    <p>Ez a snkeaker</p><p id="penz">4000</p>
-=======
-    <div>
-        <form id="urlap">
-            <input type="button" class="gomb" value="EUR" onclick="valto()">
-        </form>
+    <div class="row" id="sneakerkepek">
+        <div class="col-sm"><img src="papucs.webp" width="400" height="250"></div>
+        <div class="col-sm"><img src="papucs.webp" width="400" height="250"></div>
+        <div class="col-sm"><img src="papucs.webp" width="400" height="250"></div>
+        <div class="col-sm"><img src="papucs.webp" width="400" height="250"></div>
     </div>
->>>>>>> 1b05acdad333dc1e16b61ae77cc0a689cf90e8a1
-    
+    <div class="row" id="sneakertext">
+        <div class="col-sm">Nike Air Force Supreme 34-es</div>
+        <div class="col-sm">Nike Air Force Supreme 34-es</div>
+        <div class="col-sm">Nike Air Force Supreme 34-es</div>
+        <div class="col-sm">Nike Air Force Supreme 34-es</div>
+      </div>
+      <div class="row" id="sneakerar">
+        <div class="col-sm" id="arhover"><output id="penzkiir">1000000</output> <output>FT</output></div>
+        <div class="col-sm">1000000</div>
+        <div class="col-sm">1000000</div>
+        <div class="col-sm">1000000</div>
+      </div><br>
+    <div class="row" id="sneakerkepek">
+        <div class="col-sm"><img src="papucs.webp" width="400" height="250"></div>
+        <div class="col-sm"><img src="papucs.webp" width="400" height="250"></div>
+        <div class="col-sm"><img src="papucs.webp" width="400" height="250"></div>
+        <div class="col-sm"><img src="papucs.webp" width="400" height="250"></div>
+    </div>
+    <div class="row" id="sneakertext">
+        <div class="col-sm">Nike Air Force Supreme 34-es</div>
+        <div class="col-sm">Nike Air Force Supreme 34-es</div>
+        <div class="col-sm">Nike Air Force Supreme 34-es</div>
+        <div class="col-sm">Nike Air Force Supreme 34-es</div>
+      </div>
+
     <script src="javascript.js"></script>
 </body>
 </html>
