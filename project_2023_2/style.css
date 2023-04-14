@@ -75,6 +75,10 @@ body{
   z-index: 500;
   margin: 5px 0px 5px 0px;
 }
+.navbar-brand{
+    border-right: solid white 2px;
+    padding-right: 25px;
+}
 .navbar-brand:hover{
     border-bottom: solid white 2px;
 }
