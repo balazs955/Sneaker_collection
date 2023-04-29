@@ -40,10 +40,13 @@ body{
     font-size: 20px;
     font: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 50px;
-    margin-top: 0px;
-    margin-left: 1500px;
+    margin-right: 10px;
+    display: flex;
+    float: right;
+    width: 5%;
+    z-index: 300;
 }
+
 #navbar a:hover{
     background-color: white;
     color: black;
@@ -78,24 +81,26 @@ body{
 .navbar-brand{
     border-right: solid white 2px;
     padding-right: 25px;
+    transition-duration: 2s;
+    transition-delay: 1s;
 }
 .navbar-brand:hover{
-    border-bottom: solid white 2px;
+    color: rgb(202, 202, 202);
 }
 #btn-back-to-top {
+    z-index: 9999;
     position: fixed;
     bottom: 20px;
     right: 20px;
     display: none;
 }
-#sneakertext{
-    font-family: Roboto Condensed,sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 21.96px;
-    margin-left: 10px;
-}
-#sneakerar{
-    font-style: italic;
+.line2{
+    color: #555;
+    font-size: 30px;
+    background-color: white;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sneakerekpng{
+    width: 100%;
 }
