@@ -140,7 +140,7 @@ body{
               transform: translateX(0);
     }
   }
-  @keyframes slide-left {
+@keyframes slide-left {
     0% {
       -webkit-transform: translateX(0);
               transform: translateX(0);
@@ -153,5 +153,17 @@ body{
         -webkit-transform: translateX(0);
               transform: translateX(0);
     }
-  }
-  
+}
+
+#reklamhatter{
+    position: relative;
+    animation-name: reklam;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    overflow-x: hidden;
+}
+@keyframes reklam{
+    0% {background-color: rgb(255, 255, 255);}
+    50% {background-color: rgb(180, 180, 180);}
+    100% {background-color: rgb(255, 255, 255);}
+}
