@@ -81,11 +81,12 @@ body{
 .navbar-brand{
     border-right: solid white 2px;
     padding-right: 25px;
-    transition-duration: 2s;
-    transition-delay: 1s;
+    transition-duration: 4s;
+    transition-delay: 2s;
 }
 .navbar-brand:hover{
     color: rgb(202, 202, 202);
+    font-size: 190px;
 }
 #btn-back-to-top {
     z-index: 9999;
