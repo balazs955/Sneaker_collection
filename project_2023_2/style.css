@@ -100,9 +100,6 @@ body{
     background-color: white;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    animation-name: examplefirst;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
 }
 .line2second{
     color: #555;
@@ -110,14 +107,7 @@ body{
     background-color: white;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    animation-name: examplesecond;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-}
-@keyframes examplefirst{
-        50% {text-align: right;}
-        100% {text-align: center;}
-
+    transition: ease-out;
 }
 @keyframes examplesecond{
     50% {text-align: left;}
@@ -127,3 +117,41 @@ body{
 .sneakerekpng{
     width: 100%;
 }
+
+.slide-right{
+	-webkit-animation: slide-right 20s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-right 20s cubic-bezier(0.250, 0.460, 0.450, 0.940) both infinite;
+}
+.slide-left{
+	-webkit-animation: slide-left 20s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-left 20s cubic-bezier(0.250, 0.460, 0.450, 0.940) both infinite;
+}
+@keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    50% {
+      -webkit-transform: translateX(20%);
+              transform: translateX(20%);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+  }
+  @keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    50% {
+      -webkit-transform: translateX(-30%);
+              transform: translateX(-30%);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+  }
+  
