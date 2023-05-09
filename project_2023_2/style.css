@@ -156,6 +156,11 @@ body{
     }
 }
 
+.sneakerekpng{
+    border-bottom: groove 6px black;
+    border-top: solid 6px black;
+}
+
 #reklamhatter{
     position: relative;
     animation-name: reklam;
@@ -172,10 +177,13 @@ body{
     margin-top: 8%;
     color:#131313;
     font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .rolunktxt{
     border-top: solid 4px rgb(32, 32, 32);
     padding: 7%;
     color:#3f3f3f;
     font-size: 20px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
