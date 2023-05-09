@@ -168,3 +168,14 @@ body{
     50% {background-color: rgb(180, 180, 180);}
     100% {background-color: rgb(255, 255, 255);}
 }
+.rolunkh1{
+    margin-top: 8%;
+    color:#131313;
+    font-size: 40px;
+}
+.rolunktxt{
+    border-top: solid 4px rgb(32, 32, 32);
+    padding: 7%;
+    color:#3f3f3f;
+    font-size: 20px;
+}
