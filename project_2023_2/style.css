@@ -187,3 +187,26 @@ body{
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.elertxt{
+    margin-top: 8%;
+    color:#131313;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mappng{
+    border-top: solid 4px rgb(32, 32, 32);
+    padding: 7%;
+    width: 108%;
+}
+#list-group-item{
+    border-left: solid 3px rgb(56, 56, 56);
+}
+.nyitvatartas{
+    margin-left: 8%;
+}
+#nyitvatartascim{
+    font-size: 20px;
+    border-bottom: solid 2px rgb(88, 88, 88);
+    border-left: solid 3px rgb(56, 56, 56);
+    
+}
