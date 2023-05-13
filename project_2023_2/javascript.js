@@ -109,3 +109,7 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+function addOrder1(){
+    var img = parent.document.getElementById("rendeleskep");
+    img.src = "tatabanya.png";
+}
