@@ -122,12 +122,7 @@ function addorder2(){
       x.innerHTML = "NIKE BLAZER MID 77 WHITE BLACK";
     }
 }
-function addorder3(){
-    var x = document.getElementById("nevtext");
-    if (true === true) {
-      x.innerHTML = "A TERMÉK JELENLEG ELFOGYOTT";
-    }
-}
+
 function addorder4(){
     var x = document.getElementById("nevtext");
     if (true === true) {
@@ -182,24 +177,14 @@ function addorder12(){
       x.innerHTML = "ADIDAS YEEZY BOOST 350 V2 BLACK RED";
     }
 }
-function addorder13(){
-    var x = document.getElementById("nevtext");
-    if (true === true) {
-      x.innerHTML = "A TERMÉK JELENLEG ELFOGYOTT";
-    }
-}
+
 function addorder14(){
     var x = document.getElementById("nevtext");
     if (true === true) {
       x.innerHTML = "ADIDAS YEEZY 700 V3 SALT FADE";
     }
 }
-function addorder15(){
-    var x = document.getElementById("nevtext");
-    if (true === true) {
-      x.innerHTML = "A TERMÉK JELENLEG ELFOGYOTT";
-    }
-}
+
 function addorder16(){
     var x = document.getElementById("nevtext");
     if (true === true) {
