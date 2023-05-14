@@ -113,49 +113,49 @@ function backToTop() {
 function addorder1(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "Hamburger1";
+      x.innerHTML = "NIKE AIR FORCE 1 LOW SUPREME WHITE";
     }
 }
 function addorder2(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "Hamburger2";
+      x.innerHTML = "NIKE BLAZER MID 77 WHITE BLACK";
     }
 }
 function addorder3(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "Hamburger3";
+      x.innerHTML = "NIKE SB DUNK LOW TRAVIS SCOTT";
     }
 }
 function addorder4(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "Hamburger4";
+      x.innerHTML = "UNDEFEATED X NIKE AIR FORCE 1 LOW";
     }
 }
 function addorder5(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "Hamburger5";
+      x.innerHTML = "NIKE DUNK SB LOW ORANGE LOBSTER";
     }
 }
 function addorder6(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "Hamburger6";
+      x.innerHTML = "AIR FORCE 1 LOW TRAVIS SCOTT CACTUS JACK";
     }
 }
 function addorder7(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "Hamburger7";
+      x.innerHTML = "NIKE DUNK LOW OCEAN GREEN";
     }
 }
 function addorder8(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "Hamburger8";
+      x.innerHTML = "AIR MAX 1 TRAVIS SCOTT CACTUS JACK BROWN";
     }
 }
 function addorder9(){
