@@ -64,7 +64,7 @@
           </div>
           <div class="card-footer d-flex justify-content-between">
             <div class="text-muted"><output id="penzkiir">96800</output><br><output id="penzkiirfteur">FT</output></div>
-            <div class="col-sm-9" align="right"><a href="#kerdes" class="btn btn-secondary" id="kosarbtn" onclick="document.getElementById('rendeleskep').src='nikecipok/papucs.webp'">Kosárba</a></div>
+            <div class="col-sm-9" align="right"><a href="#kerdes" class="btn btn-secondary" id="kosarbtn" onclick="document.getElementById('rendeleskep').src='jordancipok/1_24_1800x1800.png.webp', addorder17()">Kosárba</a></div>
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@
               </div>
               <div class="card-footer d-flex justify-content-between">
                 <div class="text-muted"><output id="penzkiir3">148000</output><br> <output id="penzkiirfteur3">FT</output></div>
-                <div class="col-sm-9" align="right"><a href="#kerdes" class="btn btn-secondary" id="kosarbtn" onclick="document.getElementById('rendeleskep').src='jordancipok/1_10_1800x1800.png (1).webp'">Kosárba</a></div>
+                <div class="col-sm-9" align="right"><a href="#kerdes" class="btn btn-secondary" id="kosarbtn" onclick="document.getElementById('rendeleskep').src='jordancipok/1_10_1800x1800.png (1).webp', addorder18()">Kosárba</a></div>
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@
               </div>
               <div class="card-footer d-flex justify-content-between">
                 <div class="text-muted"><output id="penzkiir4">128000</output><br> <output id="penzkiirfteur4">FT</output></div>
-                <div class="col-sm-9" align="right"><a href="#kerdes" class="btn btn-secondary" id="kosarbtn" onclick="document.getElementById('rendeleskep').src='jordancipok/air-jordan-11-retro-cherry-2022-1-1000_1800x1800.png.webp'">Kosárba</a></div>
+                <div class="col-sm-9" align="right"><a href="#kerdes" class="btn btn-secondary" id="kosarbtn" onclick="document.getElementById('rendeleskep').src='jordancipok/air-jordan-11-retro-cherry-2022-1-1000_1800x1800.png.webp', addorder19()">Kosárba</a></div>
               </div>
             </div>
           </div>
@@ -161,7 +161,7 @@
                 </div>
                 <div class="card-footer d-flex justify-content-between">
                   <div class="text-muted"><output id="penzkiir8">204000</output> <BR> <output id="penzkiirfteur8">FT</output></div>
-                  <div class="col-sm-9" align="right"><a href="#kerdes" class="btn btn-secondary" id="kosarbtn" onclick="document.getElementById('rendeleskep').src='jordancipok/image_87e51424-789c-4f99-86f6-521c58bcc177_1800x1800.png.webp'">Kosárba</a></div>
+                  <div class="col-sm-9" align="right"><a href="#kerdes" class="btn btn-secondary" id="kosarbtn" onclick="document.getElementById('rendeleskep').src='jordancipok/image_87e51424-789c-4f99-86f6-521c58bcc177_1800x1800.png.webp', addorder20()">Kosárba</a></div>
                 </div>
               </div>
             </div>
@@ -194,7 +194,7 @@
                   </div>
                   <div class="form-group col-md-6">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="inputemail" placeholder="nickname@gmail.com">
+                    <input type="text" class="form-control" id="inputemail" placeholder="nickname@gmail.com">
                   </div>
                 </div>
                 <div class="form-group col-md-6">
@@ -216,7 +216,7 @@
                   </div>
                   <div class="form-group col-md-5">
                     <label for="inputState">Cipő mérete</label>
-                    <select id="inputState" class="form-control">
+                    <select id="inputmeret" class="form-control">
                       <option selected>Válassza ki a méretét</option>
                       <option>36</option>
                       <option>36.5</option>
@@ -241,7 +241,7 @@
                   </div>
                 <div class="form-group col-md-4">
                     <label for="inputState">Fizetés</label>
-                    <select id="inputState" class="form-control">
+                    <select id="inputfizetes" class="form-control">
                       <option selected>Válasszon</option>
                       <option>Készpénz</option>
                       <option>Bankkártya</option>
@@ -256,23 +256,23 @@
                       </div>
                   </div>
                 </div>
-                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="rendel()">
                   Megrendelem
                 </button>
 
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
+                  <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Köszönjük a rendelést!</h1>
+                        <h1 class="modal-title fs-5" id="exampleModalLabel"><output id="modalrendeles">Köszönjük a rendelést!</output></h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        A sneakered 2-3 napon belül megérkezik.
+                        <output id="modalerkezes">A sneakered 2-3 napon belül megérkezik</output>
                       </div>
                       <div class="modal-footer">
                         <a href="index.html" class="btn btn-secondary">Vissza a főoldalra</a>
-                        <a href="Nike.html" class="btn btn-success">Bezár</a>
+                        <a href="Jordan.html" class="btn btn-success">Bezár</a>
                       </div>
                     </div>
                   </div>
