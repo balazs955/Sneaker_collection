@@ -125,7 +125,7 @@ function addorder2(){
 function addorder3(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "NIKE SB DUNK LOW TRAVIS SCOTT";
+      x.innerHTML = "A TERMÉK JELENLEG ELFOGYOTT";
     }
 }
 function addorder4(){
@@ -185,7 +185,7 @@ function addorder12(){
 function addorder13(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "ADIDAS YEEZY BOOST 700 V1 WAVE RUNNER";
+      x.innerHTML = "A TERMÉK JELENLEG ELFOGYOTT";
     }
 }
 function addorder14(){
@@ -197,7 +197,7 @@ function addorder14(){
 function addorder15(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "ADIDAS YEEZY FOAM RNNR ONYX";
+      x.innerHTML = "A TERMÉK JELENLEG ELFOGYOTT";
     }
 }
 function addorder16(){
