@@ -151,9 +151,58 @@ function addorder7(){
     if (true === true) {
       x.innerHTML = "Hamburger7";
     }
-}function addorder8(){
+}
+function addorder8(){
     var x = document.getElementById("nevtext");
     if (true === true) {
       x.innerHTML = "Hamburger8";
+    }
+}
+function addorder9(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "ADIDAS YEEZY 350 V2 MX ROCK";
+    }
+}
+function addorder10(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "ADIDAS YEEZY BOOST 350 V2 BONE";
+    }
+}
+function addorder11(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "ADIDAS YEEZY BOOST 350 V2 BLUE TINT";
+    }
+}
+function addorder12(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "ADIDAS YEEZY BOOST 350 V2 BLACK RED";
+    }
+}
+function addorder13(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "ADIDAS YEEZY BOOST 700 V1 WAVE RUNNER";
+    }
+}
+function addorder14(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "ADIDAS YEEZY 700 V3 SALT FADE";
+    }
+}
+function addorder15(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "ADIDAS YEEZY FOAM RNNR ONYX";
+    }
+}
+function addorder16(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "ADIDAS YEEZY BOOST 380 CALCITE GLOW";
     }
 }
