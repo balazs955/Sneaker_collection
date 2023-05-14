@@ -113,47 +113,96 @@ function backToTop() {
 function addorder1(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "Hamburger1";
+      x.innerHTML = "NIKE AIR FORCE 1 LOW SUPREME WHITE";
     }
 }
 function addorder2(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "Hamburger2";
+      x.innerHTML = "NIKE BLAZER MID 77 WHITE BLACK";
     }
 }
 function addorder3(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "Hamburger3";
+      x.innerHTML = "A TERMÉK JELENLEG ELFOGYOTT";
     }
 }
 function addorder4(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "Hamburger4";
+      x.innerHTML = "UNDEFEATED X NIKE AIR FORCE 1 LOW";
     }
 }
 function addorder5(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "Hamburger5";
+      x.innerHTML = "NIKE DUNK SB LOW ORANGE LOBSTER";
     }
 }
 function addorder6(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "Hamburger6";
+      x.innerHTML = "AIR FORCE 1 LOW TRAVIS SCOTT CACTUS JACK";
     }
 }
 function addorder7(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "Hamburger7";
+      x.innerHTML = "NIKE DUNK LOW OCEAN GREEN";
     }
-}function addorder8(){
+}
+function addorder8(){
     var x = document.getElementById("nevtext");
     if (true === true) {
-      x.innerHTML = "Hamburger8";
+      x.innerHTML = "AIR MAX 1 TRAVIS SCOTT CACTUS JACK BROWN";
+    }
+}
+function addorder9(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "ADIDAS YEEZY 350 V2 MX ROCK";
+    }
+}
+function addorder10(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "ADIDAS YEEZY BOOST 350 V2 BONE";
+    }
+}
+function addorder11(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "ADIDAS YEEZY BOOST 350 V2 BLUE TINT";
+    }
+}
+function addorder12(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "ADIDAS YEEZY BOOST 350 V2 BLACK RED";
+    }
+}
+function addorder13(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "A TERMÉK JELENLEG ELFOGYOTT";
+    }
+}
+function addorder14(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "ADIDAS YEEZY 700 V3 SALT FADE";
+    }
+}
+function addorder15(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "A TERMÉK JELENLEG ELFOGYOTT";
+    }
+}
+function addorder16(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "ADIDAS YEEZY BOOST 380 CALCITE GLOW";
     }
 }
