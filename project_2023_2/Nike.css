@@ -140,8 +140,8 @@ body{
 #rendeleskep{
     border: solid 2px rgb(170, 170, 170);
     border-radius: 10px;
-    margin-top: 40%;
-    margin-left: 20%;
+    margin-top: 8%;
+    margin-left: -40%;
 }
 #rendelesresz{
     margin-top: 2%;
@@ -149,4 +149,10 @@ body{
 .kerdesresz{
     margin-top: 6%;
     border-bottom: solid 3px black;
+}
+.urlapresz{
+    margin-left: 30%;
+}
+#nevtext{
+    margin-top: 2%;
 }

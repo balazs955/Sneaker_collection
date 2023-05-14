@@ -109,7 +109,51 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-function addOrder1(){
-    var img = parent.document.getElementById("rendeleskep");
-    img.src = "tatabanya.png";
+
+function addorder1(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "Hamburger1";
+    }
+}
+function addorder2(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "Hamburger2";
+    }
+}
+function addorder3(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "Hamburger3";
+    }
+}
+function addorder4(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "Hamburger4";
+    }
+}
+function addorder5(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "Hamburger5";
+    }
+}
+function addorder6(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "Hamburger6";
+    }
+}
+function addorder7(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "Hamburger7";
+    }
+}function addorder8(){
+    var x = document.getElementById("nevtext");
+    if (true === true) {
+      x.innerHTML = "Hamburger8";
+    }
 }
