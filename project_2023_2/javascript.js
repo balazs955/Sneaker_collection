@@ -87,6 +87,17 @@ function valtas(){
         document.getElementById("penzkiir8").innerHTML = Math.floor(y8 * 400);
         document.getElementById("penzkiirfteur8").innerHTML = "FT";
     }
+
+    var b7 = document.getElementById("artext").value;
+
+    if( x == "EUR"){
+        document.getElementById("artext").innerHTML = Math.floor(b7 / 400);
+        document.getElementById("artextpenznem").innerHTML = "€";
+    }
+    else if( x == "FT"){
+        document.getElementById("artext").innerHTML = Math.floor(b7 * 400);
+        document.getElementById("artextpenznem").innerHTML = "FT";
+    }
 }
 let mybutton = document.getElementById("btn-back-to-top");
 window.onscroll = function () {
@@ -244,9 +255,11 @@ function addorder19(){
 function addorder20(){
     var x = document.getElementById("nevtext");
     var y = document.getElementById("artext");
+    var z = document.getElementById("artextpenznem");
     if (true === true) {
       x.innerHTML = "AIR JORDAN 4 RETRO MILITARY BLACK";
       y.innerHTML = "204000";
+      z.innerHTML = "FT"
     }
 }
 function rendel(){
