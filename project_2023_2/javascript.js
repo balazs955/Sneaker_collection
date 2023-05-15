@@ -231,71 +231,55 @@ function rendel(){
         document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
     }
     else{
-        document.getElementById("modalrendeles").innerHTML = "Köszönjük a rendelést!";
-        document.getElementById("modalerkezes").innerHTML = "A sneakered 2-3 napon belül megérkezik";
+        if( x2 == ""){
+            document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
+            document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
+        }
+        else{
+            if( x3 == ""){
+                document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
+                document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
+            }
+            else{
+                if( x4 == ""){
+                    document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
+                    document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
+                }
+                else{
+                    if( x5 == ""){
+                        document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
+                        document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
+                    }
+                    else{
+                        if( x6 == ""){
+                            document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
+                            document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
+                        }
+                        else{
+                            if( x7 == ""){
+                                document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
+                                document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
+                            }
+                            else{
+                                if( x8 == ""){
+                                    document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
+                                    document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
+                                }
+                                else{
+                                    if( x9 == ""){
+                                        document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
+                                        document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
+                                    }
+                                    else{
+                                        document.getElementById("modalrendeles").innerHTML = "Köszönjük a rendelést!";
+                                        document.getElementById("modalerkezes").innerHTML = "A sneakered 2-3 napon belül megérkezik";
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
-    if( x2 == ""){
-        document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
-        document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
-    }/*
-    else{
-        document.getElementById("modalrendeles").innerHTML = "Köszönjük a rendelést!";
-        document.getElementById("modalerkezes").innerHTML = "A sneakered 2-3 napon belül megérkezik";
-    }
-    if( x3 == ""){
-        document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
-        document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
-    }
-    else{
-        document.getElementById("modalrendeles").innerHTML = "Köszönjük a rendelést!";
-        document.getElementById("modalerkezes").innerHTML = "A sneakered 2-3 napon belül megérkezik";
-    }
-    if( x4 == ""){
-        document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
-        document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
-    }
-    else{
-        document.getElementById("modalrendeles").innerHTML = "Köszönjük a rendelést!";
-        document.getElementById("modalerkezes").innerHTML = "A sneakered 2-3 napon belül megérkezik";
-    }
-    if( x5 == ""){
-        document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
-        document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
-    }
-    else{
-        document.getElementById("modalrendeles").innerHTML = "Köszönjük a rendelést!";
-        document.getElementById("modalerkezes").innerHTML = "A sneakered 2-3 napon belül megérkezik";
-    }
-    if( x6 == ""){
-        document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
-        document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
-    }
-    else{
-        document.getElementById("modalrendeles").innerHTML = "Köszönjük a rendelést!";
-        document.getElementById("modalerkezes").innerHTML = "A sneakered 2-3 napon belül megérkezik";
-    }
-    if( x7 == ""){
-        document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
-        document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
-    }
-    else{
-        document.getElementById("modalrendeles").innerHTML = "Köszönjük a rendelést!";
-        document.getElementById("modalerkezes").innerHTML = "A sneakered 2-3 napon belül megérkezik";
-    }
-    if( x8 == ""){
-        document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
-        document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
-    }
-    else{
-        document.getElementById("modalrendeles").innerHTML = "Köszönjük a rendelést!";
-        document.getElementById("modalerkezes").innerHTML = "A sneakered 2-3 napon belül megérkezik";
-    }
-    if( x9 == ""){
-        document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
-        document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
-    }
-    else{
-        document.getElementById("modalrendeles").innerHTML = "Köszönjük a rendelést!";
-        document.getElementById("modalerkezes").innerHTML = "A sneakered 2-3 napon belül megérkezik";
-    }*/
 }
