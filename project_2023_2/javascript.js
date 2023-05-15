@@ -261,12 +261,12 @@ function rendel(){
                                 document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
                             }
                             else{
-                                if( x8 == ""){
+                                if( x8 == "Válassza ki a méretét"){
                                     document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
                                     document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
                                 }
                                 else{
-                                    if( x9 == ""){
+                                    if( x9 == "Válasszon"){
                                         document.getElementById("modalrendeles").innerHTML = "Hibás rendelés";
                                         document.getElementById("modalerkezes").innerHTML = "Töltse ki az összes mezőt, hogy megrendelhesse a sneakert!";
                                     }
