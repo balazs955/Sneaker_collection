@@ -112,107 +112,141 @@ function backToTop() {
 
 function addorder1(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "NIKE AIR FORCE 1 LOW SUPREME WHITE";
+      y.innerHTML = "96800";
     }
 }
 function addorder2(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "NIKE BLAZER MID 77 WHITE BLACK";
+      y.innerHTML = "42400";
     }
 }
 
 function addorder4(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "UNDEFEATED X NIKE AIR FORCE 1 LOW";
+      y.innerHTML = "87200";
     }
 }
 function addorder5(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "NIKE DUNK SB LOW ORANGE LOBSTER";
+      y.innerHTML = "209200";
     }
 }
 function addorder6(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "AIR FORCE 1 LOW TRAVIS SCOTT CACTUS JACK";
+      y.innerHTML = "204000";
     }
 }
 function addorder7(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "NIKE DUNK LOW OCEAN GREEN";
+      y.innerHTML = "90000";
     }
 }
 function addorder8(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "AIR MAX 1 TRAVIS SCOTT CACTUS JACK BROWN";
+      y.innerHTML = "240000";
     }
 }
 function addorder9(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "ADIDAS YEEZY 350 V2 MX ROCK";
+      y.innerHTML = "149600";
     }
 }
 function addorder10(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "ADIDAS YEEZY BOOST 350 V2 BONE";
+      y.innerHTML = "164800";
     }
 }
 function addorder11(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "ADIDAS YEEZY BOOST 350 V2 BLUE TINT";
+      y.innerHTML = "130000";
     }
 }
 function addorder12(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "ADIDAS YEEZY BOOST 350 V2 BLACK RED";
+      y.innerHTML = "174800";
     }
 }
 
 function addorder14(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "ADIDAS YEEZY 700 V3 SALT FADE";
+      y.innerHTML = "118000";
     }
 }
 
 function addorder16(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "ADIDAS YEEZY BOOST 380 CALCITE GLOW";
+      y.innerHTML = "154400";
     }
 }
 function addorder17(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "AIR JORDAN 6 RETRO COOL GREY";
+      y.innerHTML = "96800";
     }
 }
 function addorder18(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "AIR JORDAN 4 RETRO SEAFOAM";
+      y.innerHTML = "148000";
     }
 }
 function addorder19(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "JORDAN 11 RETRO CHERRY (2022)";
+      y.innerHTML = "128000";
     }
 }
 function addorder20(){
     var x = document.getElementById("nevtext");
+    var y = document.getElementById("artext");
     if (true === true) {
       x.innerHTML = "AIR JORDAN 4 RETRO MILITARY BLACK";
+      y.innerHTML = "204000";
     }
 }
 function rendel(){
