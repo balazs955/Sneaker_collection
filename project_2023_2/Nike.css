@@ -128,7 +128,7 @@ body{
     text-align: center;
 }
 .formurlap{
-    margin-top: 10%;
+    margin-top: 8%;
 }
 #hirlevelradio{
     margin-top: 28px;
@@ -150,7 +150,7 @@ body{
     border-bottom: solid 3px black;
 }
 .urlapresz{
-    margin-left: 30%;
+    margin-left: 0%;
 }
 #nevtext{
     margin-top: 2%;
@@ -167,4 +167,17 @@ body{
 }
 #artextpenznem{
     border-bottom: solid 1px grey;
+}
+
+/* -------- V.2.0 -------- */
+
+.adatokformtext{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: #e4e4e4;
+    border-bottom: solid 2px rgb(100, 100, 100);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 2%;
 }

@@ -186,6 +186,8 @@ body{
     font-size: 20px;
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-right: solid 4px rgb(32, 32, 32);
+    border-radius: 8px;
 }
 .elertxt{
     margin-top: 2%;
@@ -226,4 +228,11 @@ body{
     color: white;
     padding-top: 1%;
     text-align: center;
+}
+
+/* -------- V.2.0 -------- */
+
+#sneakerpng2{
+    border-top: solid 8px rgb(48, 48, 48);
+    border-bottom: solid 8px rgb(48, 48, 48);
 }
